@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00815252"
+    tools:context=".OrderActivity">
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#3EA133"
+        android:text="Orderig Form"
+        android:textSize="32sp"
+        android:typeface="serif" />
+    <Spinner
+        android:id="@+id/flavor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#7A426A26"
+       android:prompt="@string/flavor"
+        android:layout_margin="8dp"/>
+    <Spinner
+        android:id="@+id/icing"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#7A426A26"
+        tools:listitem=""
+        android:layout_margin="8dp"/>
+    <Spinner
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#7A426A26"
+        tools:listitem=""
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/customerNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter quantty "
+        android:inputType="number"
+        android:backgroundTint= "#3EA133"
+        android:layout_margin="8dp"/>
+
+
+    <Button
+        android:id="@+id/addCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Order Now "
+        android:backgroundTint= "#3EA133"
+        />
+
+</LinearLayout>

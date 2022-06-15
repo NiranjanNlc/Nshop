@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BakeryOrder</string>
+    <string name="greeting">Please add your detail before placing order</string>
+    <string name="add_detail">Add Your Detail</string>
+    <string name="flavor" />
+
+    <string-array name="flavour">
+        <item> Chocolate</item>
+        <item>Mocha</item>
+        <item>Marble</item>
+        <item>Double Dutch </item>
+    </string-array>
+    <string-array name="icing">
+        <item> Chocolate</item>
+        <item>Caramel</item>
+        <item>StrawBerry </item>
+        <item>Vanila</item>
+    </string-array>
+    <string-array name="isize">
+        <item> Big </item>
+        <item>Normal </item>
+        <item>Small </item>
+    </string-array>
+</resources>
